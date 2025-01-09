@@ -8,8 +8,10 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai.embeddings import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-
+import re
 load_dotenv()
 
 def setup_qa_system():
     pass
+
+
